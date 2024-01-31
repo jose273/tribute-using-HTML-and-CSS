@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    padding: 0;
+    background:black;
+    background-repeat: no-repeat;
+}
+
+.card-bg {
+    height: 100vh; 
+    background-image: url(images/kipchoge.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    
+}
+
+
+
+
+
+.links{
+    display: inline-block;
+    padding: 10px 10%;
+    
+}
+.links li{
+    display: inline-block;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 20px;
+}
+.links a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 8px;
+    
+}
+a:hover{
+color: aquamarine;
+text-decoration: underline;
+text-underline-offset: 1rem;
+text-decoration-color: antiquewhite;
+}
+
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .links li {
+        margin: 10px 0;
+    }
+}
+
+
+
+.container.career-section:hover {
+    background-color: #f5f5f5; 
+}
+
+
+.container.career-section {
+    background-color:black; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.career-section hr {
+    border: 1px solid #343a40; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.career-section h2 {
+    color: #007bff; 
+}
+
+.list-group {
+    margin-top: 20px;
+}
+
+.list-group-item {
+    border: none;
+    padding: 20px;
+    background-color: #ffffff; 
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.list-group-item strong {
+    color: #28a745; 
+}
+
+.list-group-item:last-child {
+    margin-bottom: 0; 
+}
+
+
+.container.awards-section {
+    background-color:#96c2db ;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.awards {
+    margin-top: 20px;
+}
+
+.container.awards-section:hover {
+    background-color:#f5f5f5; 
+    transition: background-color 0.3s ease; 
+}
+
+.awards ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.awards li {
+    background-color: #ffffff; 
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.awards h2 {
+    color: #d9534f; 
+}
+
+
+.awards li:nth-child(odd) {
+    background-color: #f5f5f5; 
+}
+
+
+.container.quotes-section {
+    background-color:limegreen; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.quotes {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.quotes:hover {
+    background-color:#f5f5f5; 
+    transition: background-color 0.3s ease; 
+}
+
+.quotes h2 {
+    color: #0b0b0b; 
+}
+
+blockquote {
+    background-color: #ffffff; 
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+
+blockquote:nth-child(odd) {
+    background-color: #fafafa; 
+}
+
+
